@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="17" tilewidth="32" tileheight="32" nextobjectid="69">
+ <tileset firstgid="1" name="gr" tilewidth="32" tileheight="32" tilecount="100">
+  <image source="angrybirds/gr.png" width="801" height="136"/>
+  <tile id="76">
+   <animation>
+    <frame tileid="51" duration="100"/>
+    <frame tileid="52" duration="100"/>
+    <frame tileid="53" duration="100"/>
+    <frame tileid="54" duration="100"/>
+    <frame tileid="55" duration="100"/>
+    <frame tileid="76" duration="100"/>
+    <frame tileid="77" duration="100"/>
+    <frame tileid="78" duration="100"/>
+    <frame tileid="79" duration="100"/>
+    <frame tileid="80" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <imagelayer name="Background" y="-70">
+  <image source="angrybirds/background.png"/>
+ </imagelayer>
+ <layer name="Ground" width="40" height="17">
+  <data encoding="base64" compression="zlib">
+   eJztzdlKgmEUhlFTM7PZykab1RyyzMq00cr+hvu/H9eJ8CNix8H3wIIN78FOJEKhUCgUCoX+VzMkSZFmlgxzZJknxwKLLLHMCquskWedDTYpsMU2O2Pb6J72N77tssc+RQ445IhjTjjljBJlKpxTpUadBhc0ueSKFtdj2+ie9je+tbnhljs63NOlxwOPPPHMC6/0eeOdDwZ8EvHFNz/8TtiiP/7GtyFK8REb
+  </data>
+ </layer>
+ <objectgroup color="#ff0000" draworder="index" name="Ground">
+  <object id="16" x="-144.454" y="483.67" width="2376.45" height="58.67"/>
+ </objectgroup>
+ <objectgroup color="#06a48c" name="Physics_ Building">
+  <object id="6" x="1115.47" y="364.285" width="43.7268" height="113.048"/>
+  <object id="8" x="1053.37" y="73.4913" width="76.0899" height="26.088"/>
+  <object id="10" x="1027.37" y="365.865" width="38.197" height="113.048"/>
+  <object id="11" x="1053.31" y="181.245" width="78.2639" height="26.088"/>
+  <object id="40" x="1112.33" y="211.5" width="35.6041" height="103.509"/>
+  <object id="57" x="1029.87" y="212.323" width="36.4611" height="103.509"/>
+  <object id="58" x="993.566" y="319.67" width="196.204" height="42.9365"/>
+  <object id="60" x="1060" y="104.333" width="68" height="71.7419"/>
+ </objectgroup>
+ <objectgroup name="Bird"/>
+ <imagelayer name="Image Layer 2" x="130" y="369">
+  <image source="angrybirds/slingshot.png"/>
+ </imagelayer>
+</map>

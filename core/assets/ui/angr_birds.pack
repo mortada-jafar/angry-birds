@@ -1,0 +1,26 @@
+
+angr_birds.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+all
+  rotate: false
+  xy: 1, 313
+  size: 1000, 566
+  orig: 1000, 566
+  offset: 0, 0
+  index: -1
+Block
+  rotate: false
+  xy: 1, 1
+  size: 259, 309
+  orig: 263, 309
+  offset: 0, 0
+  index: -1
+birds
+  rotate: false
+  xy: 262, 167
+  size: 100, 143
+  orig: 100, 143
+  offset: 0, 0
+  index: -1
